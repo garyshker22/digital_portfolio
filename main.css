@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: "Inconsolata";
+}
+.navigate {
+    border: 4px solid transparent;
+}
+
+.navigate:hover{
+    border: 4px solid #d7d7fd;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    height: 50vh;
+}
+  
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    background: #d7d7fd;
+    border-radius: 0.5rem;
+}
+
+.img-fluid {
+    width: 430px;
+    height: 270px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    margin: auto;
+}
+
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #5b8a62;
+    border-radius: 0.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
